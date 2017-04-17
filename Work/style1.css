@@ -1,0 +1,31 @@
+section{
+    margin: auto;
+    width: 25%;
+    margin-top: 175px;
+}
+h3{
+    text-align: center;
+}
+/*.container{
+    vertical-align:center;
+}*/
+ label{
+    display:block;
+    height:25px;
+    width:125px;
+ }
+ input{
+    border-radius: .25rem;
+    height:30px;
+    width:200px;
+ }
+a:link, a:hover, a:active, a:focus{
+    background-color: #ccc;
+    font-weight: 400;
+    color: white;
+    padding: .5rem 1rem;
+    border-radius: .25rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}

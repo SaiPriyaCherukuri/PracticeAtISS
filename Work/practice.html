@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<!--head of the web page-->
+    <head>
+        <!--title - this is the title of this html file-->
+        <title>Practice</title>
+        <style>
+            .row.no-gutters{
+                margin-left: 0;
+                margin-right: 0;
+            }
+            .row {
+                padding-left: 0;
+                padding-right: 0;
+            }
+
+
+        </style>
+
+        <!--this is external style-->
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"/>
+    </head>
+
+<!--body of the web page-->
+<!--body is the rendering part of the html-->
+<!--this is inline/attribute style-->
+    <body>
+
+        <div>
+
+            <h1>Hello World!</h1>
+
+            <div class="row no-gutters">
+
+               <!-- <div class="col-lg-6"> -->
+                    <p class="col-lg-6 custom-class"> this is a paragraph</p>
+                <!--</div>-->
+
+                    <p class="col-lg-6"> this is another paragraph tag</p>
+
+            </div>
+
+            <button class="btn btn-default" action=""> Button1</button>  <!-- default - -->
+            <button class="btn btn-primary" action=""> Button2</button>  <!-- primary - -->
+            <button class="btn btn-warning" action=""> Button3</button>  <!-- warning - cancel -->
+            <button class="btn btn-success" action=""> Button4</button>  <!-- success -  for submit buttons-->
+            <button class="btn btn-info" action=""> Button5</button>     <!-- info - to specify some important info -->
+
+            <ul>
+                <li class="list-group-item list-group-item-default"> List Item 1 </li>
+                <li class="list-group-item list-group-item-danger"> List Item 2 </li>
+                <li class="list-group-item list-group-item-info"> List Item 3 </li>
+                <li class="list-group-item list-group-item-warning"> List Item 4 </li>
+                <li class="list-group-item list-group-item-success"> List Item 5 </li>
+            </ul>
+
+
+
+            <select class="" >
+                <option> <button  class="btn btn-default" > Dropdown1</button> </option>
+                <option> <button  class="dropbtn" > Dropdown2</button> </option>
+                <option> <button  class="dropbtn" > Dropdown3</button> </option>
+                <option> <button  class="dropbtn" > Dropdown4</button> </option>
+                <option> <button  class="dropbtn" > Dropdown5</button> </option>
+
+            </select>
+
+            <button class="btn btn-outline-default" action="">
+                <select class="" >
+                    <option> <button  class="btn btn-default" action=""> Dropdown1</button> </option>
+                    <option> <button  class="dropbtn" action=""> Dropdown2</button> </option>
+                    <option> <button  class="dropbtn" action=""> Dropdown3</button> </option>
+                    <option> <button  class="dropbtn" action=""> Dropdown4</button> </option>
+                    <option> <button  class="dropbtn" action=""> Dropdown5</button> </option>
+
+                </select>
+            </button>
+            <button class="btn btn-primary" > Button2</button>
+            <button class="btn btn-warning" > Button3</button>
+            <button class="btn btn-success" > Button4</button>
+            <button class="btn btn-info" > Button5</button>
+
+
+            <!--<div class="dropdown">-->
+                <!--<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+                    <!--Dropdown-->
+                <!--</button>-->
+                <!--<div class="dropdown-menu" aria-labelledby="dropdownMenu2">-->
+                    <!--<button class="dropdown-item" type="button">Action</button>-->
+                    <!--<button class="dropdown-item" type="button">Another action</button>-->
+                    <!--<button class="dropdown-item" type="button">Something else here</button>-->
+                <!--</div>-->
+            <!--</div>-->
+        </div>
+
+        <button href="#" data-dropdown="drop1" aria-controls="drop1" aria-expanded="false" class="button dropdown">Dropdown Button</button><br>
+        <ul id="drop1" data-dropdown-content class="f-dropdown" aria-hidden="true">
+            <li><a href="#">This is a link</a></li>
+            <li><a href="#">This is another</a></li>
+            <li><a href="#">Yet another</a></li>
+        </ul>
+
+
+    <!-- script code of the web page-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+
+        var array = [1, 2, 3, 4, 5, 6];
+
+    </script>
+    </body>
+</html>
